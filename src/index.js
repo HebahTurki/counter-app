@@ -1,17 +1,20 @@
+
+// Team Members:
+// Samaher Saud - 2108986
+// Hebah Alahmari - 2105304
+// Reem Alhussaini - 2105023
+// Lama Althabiti - 2112562
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'; // Ensure the global styles are applied
+import Counter from './components/Counter'; // Import the Counter component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="App"> 
+      <Counter />
+    </div>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
